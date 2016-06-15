@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My CV and Portfolio</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="styling/cv.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <header>
+            <h1>My Portfolio</h1>
+        </header>
+        <nav>
+            <input type="button" onClick="document.getElementById('aboutMe').scrollIntoView();" value="About Me" class="button" id="btnAbout"/>
+            <input type="button" onClick='document.getElementById("myCareer").scrollIntoView({behavior: "smooth"});' value="My Career" class="button" id="btnCareer"/>
+            <input type="button" onClick="document.getElementById('myProjects').scrollIntoView();" value="My Projects" class="button" id="btnProjects"/>
+            <input type="button" onClick="document.getElementById('contact').scrollIntoView();" value="Contact Me" class="button" id="btnContact"/>
+        </nav>
+        <div class="column item1" id="aboutMe">
+            <h4>About Me</h4>
+            <img src="images/temp_profile.jpg" class="profilePic"></img>
+            <p>I am a hardworking and enthusiastic worker. I take pride in being self-disciplined and motivated to achieve objectives in challenging conditions. I enjoy problem solving and content creation. I am an analytical person who likes to make informed
+                decisions to address any issues that arise, though I am able to utilize past experience to quickly address day to day problems. I am looking to create a rewarding, challenging and successful career for myself within web development.</p>
+        </div>
+        <div class="column item2" id="myCareer">
+            <h4 style="text-align: center;">My Career</h4>
+            <p>
+                <b>2014-Present Waitrose Kensington 678 Section Manager</b><br>
+                Created culture of development within section and branch utilising PDP reviews Green EFSIS result<br>Continued to achieve whilst also managing 20% absence due to long term sickness<br>Used differing communication styles to help drive aims groups within the branch, aligning with new business plan directives<br>Helped to manage pay in absence in DMRS<br>
+                <b>2013-2014 Waitrose Westfield 462 Acting Section Manager</b><br>
+                Established Section RACI<br>Led section through most profitable Christmas, halving destroyed wastage taken in comparison to last year<br>Cleared all annual reviews up to date<br>
+                <b>2012-2013 Waitrose Westfield 462 Assistant Section Manager</b><br>
+                Helped to establish section with SM, establishing blueprint and managing performance reviews<br>Managed Section in absence of SM who was on 6 month secondment<br>Nominated to SMT<br>Re-trained branch and section management in stock management routines<br>
+                <b>2011-2012 Waitrose Sunningdale 190 Team Leader Operations</b><br>
+                Managed multimedia training Aided in controlling UXW wastage and cementing stock control routines<br>Led and managed FVH team to free up section management time<br>Managed multimedia training<br>Increased sales of organic lines through section presentation<br>
+                <b>2005-2006 HM Forces Army Royal Gloustershire Berkshire and Wiltshire Regiment Infantryman</b><br>Trained in care of equipment and handling chemical substances<br>Trained in security work to NVQ level 1 (armed guard and close observation)<br>Qualified first aider<br>Trained in keen awareness of Health and Safety issues<br>Trained in Signals</p>
+        </div>
+        <div class="column item3" id="myProjects">
+            <h4>My Projects</h4>
+            <p data-height="312" data-theme-id="0" data-slug-hash="aNgYQq" data-default-tab="result" data-user="khakimonk" data-embed-version="2" data-preview="true" class="codepen">See the Pen
+                <a href="https://codepen.io/khakimonk/pen/aNgYQq/">FCC-Twitch-App</a>
+                by James Bint (<a href="http://codepen.io/khakimonk">@khakimonk</a>) on
+                <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="265" data-theme-id="0" data-slug-hash="qNZwpe" data-default-tab="result" data-user="khakimonk" data-embed-version="2" data-preview="true" class="codepen">See the Pen
+                <a href="https://codepen.io/khakimonk/pen/qNZwpe/">FCC-Javascript Calculator</a>
+                by James Bint (<a href="http://codepen.io/khakimonk">@khakimonk</a>) on
+                <a href="http://codepen.io">CodePen</a>.</p>
+            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+        </div>
+        <footer id="contact">
+            <a class="btn btn-default" id="git-btn" href="https://github.com/Khakimonk">
+                <i class="fa fa-github-square"></i>
+                GitHub</a>
+            <a class="btn btn-default" id="linkdin-btn" href="https://www.linkedin.com/in/james-bint-290769117?trk=nav_responsive_tab_profile">
+                <i class="fa fa-linkedin-square"></i>
+                Linkedin</a>
+        </footer>
+        <script src="js/jquery-3.0.0.js"></script>
+        <script src="js/cv.js"></script>
+    </body>
+</html 
