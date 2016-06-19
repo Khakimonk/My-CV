@@ -11,20 +11,23 @@
         <header>
             <h1>My Portfolio</h1>
         </header>
-        <nav>
-            <input type="button" onClick="document.getElementById('aboutMe').scrollIntoView();" value="About Me" class="button" id="btnAbout"/>
-            <input type="button" onClick='document.getElementById("myCareer").scrollIntoView({behavior: "smooth"});' value="My Career" class="button" id="btnCareer"/>
-            <input type="button" onClick="document.getElementById('myProjects').scrollIntoView();" value="My Projects" class="button" id="btnProjects"/>
-            <input type="button" onClick="document.getElementById('contact').scrollIntoView();" value="Contact Me" class="button" id="btnContact"/>
-        </nav>
-        <div class="column item1" id="aboutMe">
-            <h4>About Me</h4>
-            <img src="images/temp_profile.jpg" class="profilePic"></img>
-            <p>I am a hardworking and enthusiastic worker. I take pride in being self-disciplined and motivated to achieve objectives in challenging conditions. I enjoy problem solving and content creation. I am an analytical person who likes to make informed
-                decisions to address any issues that arise, though I am able to utilize past experience to quickly address day to day problems. I am looking to create a rewarding, challenging and successful career for myself within web development.</p>
+        <div class="nav">
+            <input type="button" value="About Me" class="button" id="btnAbout"/>
+            <input type="button" value="My Career" class="button" id="btnCareer"/>
+            <input type="button" value="My Projects" class="button" id="btnProjects"/>
+            <input type="button" value="Links" class="button" id="btnLinks"/>
         </div>
+        <div class="popContainer pop1" id="popMe">
+            <div class="column item1" id="aboutMe">
+                <h4>About Me</h4>
+                <img src="images/temp_profile.jpg" class="profilePic"></img>
+                <p>I am a hardworking and enthusiastic worker. I take pride in being self-disciplined and motivated to achieve objectives in challenging conditions. I enjoy problem solving and content creation. I am an analytical person who likes to make informed
+                    decisions to address any issues that arise, though I am able to utilize past experience to quickly address day to day problems. I am looking to create a rewarding, challenging and successful career for myself within web development.</p>
+            </div>
+        </div>
+        <div class="popContainer pop2" id="popCareer">
         <div class="column item2" id="myCareer">
-            <h4 style="text-align: center;">My Career</h4>
+            <h4 style="text-align: center;">My Career So Far</h4>
             <p>
                 <b>2014-Present Waitrose Kensington 678 Section Manager</b><br>
                 Created culture of development within section and branch utilising PDP reviews Green EFSIS result<br>Continued to achieve whilst also managing 20% absence due to long term sickness<br>Used differing communication styles to help drive aims groups within the branch, aligning with new business plan directives<br>Helped to manage pay in absence in DMRS<br>
@@ -36,20 +39,12 @@
                 Managed multimedia training Aided in controlling UXW wastage and cementing stock control routines<br>Led and managed FVH team to free up section management time<br>Managed multimedia training<br>Increased sales of organic lines through section presentation<br>
                 <b>2005-2006 HM Forces Army Royal Gloustershire Berkshire and Wiltshire Regiment Infantryman</b><br>Trained in care of equipment and handling chemical substances<br>Trained in security work to NVQ level 1 (armed guard and close observation)<br>Qualified first aider<br>Trained in keen awareness of Health and Safety issues<br>Trained in Signals</p>
         </div>
+      </div>
+      <div class="popContainer pop3" id="popProjects">
         <div class="column item3" id="myProjects">
             <h4>My Projects</h4>
-            <p data-height="312" data-theme-id="0" data-slug-hash="aNgYQq" data-default-tab="result" data-user="khakimonk" data-embed-version="2" data-preview="true" class="codepen">See the Pen
-                <a href="https://codepen.io/khakimonk/pen/aNgYQq/">FCC-Twitch-App</a>
-                by James Bint (<a href="http://codepen.io/khakimonk">@khakimonk</a>) on
-                <a href="http://codepen.io">CodePen</a>.</p>
-            <p data-height="265" data-theme-id="0" data-slug-hash="qNZwpe" data-default-tab="result" data-user="khakimonk" data-embed-version="2" data-preview="true" class="codepen">See the Pen
-                <a href="https://codepen.io/khakimonk/pen/qNZwpe/">FCC-Javascript Calculator</a>
-                by James Bint (<a href="http://codepen.io/khakimonk">@khakimonk</a>) on
-                <a href="http://codepen.io">CodePen</a>.</p>
-            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
         </div>
+      </div>
         <footer id="contact">
             <a class="btn btn-default" id="git-btn" href="https://github.com/Khakimonk">
                 <i class="fa fa-github-square"></i>
@@ -58,7 +53,7 @@
                 <i class="fa fa-linkedin-square"></i>
                 Linkedin</a>
         </footer>
-        <script src="js/jquery-3.0.0.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
         <script src="js/cv.js"></script>
     </body>
-</html 
+</html

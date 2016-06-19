@@ -1,23 +1,26 @@
-$("#btnAbout").click(function() {
-    $('html, body').animate({
-        scrollTo: $("#aboutMe").offset().top
-    }, 2000);
-});
+var popMe = document.getElementById('popMe');
+var aboutMe = document.getElementById('aboutMe');
+var popCareer = document.getElementById('popCareer');
+var myCareer = document.getElementById('myCareer');
+var popProjects = document.getElementById('popProjects');
+var myProjects = document.getElementById('myProjects');
+var btnAbout = document.getElementById('btnAbout');
+var btnCareer = document.getElementById('btnCareer');
+var btnProjects = document.getElementById('btnProjects');
+var btnLinks = document.getElementById('btnLinks');
+var body = document.getElementsByTagName('body');
 
-$("#btnCareer").click(function() {
-    $('html, body').animate({
-        scrollTo: $("#myCareer").offset().top
-    }, 2000);
-});
+var aniAboutMe = btnAbout.addEventListener('click', function() {
+            var id = setInterval(frame, 5);
 
-$("#btnProjects").click(function() {
-    $('html, body').animate({
-        scrollTo: $("#myProjects").offset().top
-    }, 2000);
-});
-
-$("#btnContact").click(function() {
-    $('html, body').animate({
-        scrollTo: $("#contact").offset().top
-    }, 2000);
-});
+            function frame() {
+                var height = 0;
+                if (height == 50) {
+                    clearInterval(id);
+                } else {
+                    height++;
+                    popMe.style.height = 50 + '%';
+                    aboutMe.style.display = 'block';
+                }
+              }
+            });
