@@ -41,7 +41,7 @@ nav strong {
 }
 
 main {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   padding-bottom: 100px;
 }
@@ -98,8 +98,8 @@ main h4:focus {
 }
 
 .item4 ul li img {
-  width: 150px;
-  height: 150px;
+  width: 169px;
+  height: 169px;
 }
 
 footer {
@@ -112,7 +112,7 @@ footer {
 }
 
 footer p {
-  margin-right: 40px;
+  margin: 0 auto;
   color: #eee;
 }
 
