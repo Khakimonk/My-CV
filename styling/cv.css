@@ -81,6 +81,10 @@ main h4:focus {
   margin: 0 auto 20px auto;
 }
 
+.item2 ul {
+  list-style: none;
+}
+
 .item2 li {
   text-align: left;
   margin-bottom: 5px;
@@ -98,4 +102,39 @@ footer {
 footer p {
   margin-right: 40px;
   color: #eee;
+}
+
+@media screen and (max-width: 1080px) {
+  main {
+    width: 80%;
+  }
+  .profilePic {
+    width: 200px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 3em;
+  }
+  main {
+    width: 100%;
+  }
+  main h4 {
+    font-size: 1.5em;
+  }
+  .profilePic {
+    width: 150px;
+    height: 200px;
+  }
+  .item1 p, .item2 ul p, .item3 p {
+    width: 90%;
+  }
+  .item2 ul li {
+    padding-left: 15px;
+  }
+  footer {
+    padding: 10px 50px 0 50px;
+  }
 }
