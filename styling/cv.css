@@ -81,13 +81,25 @@ main h4:focus {
   margin: 0 auto 20px auto;
 }
 
-.item2 ul {
+.item2 ul, .item4 ul {
   list-style: none;
 }
 
 .item2 li {
   text-align: left;
   margin-bottom: 5px;
+}
+
+.item4 ul {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-bottom: 15px;
+}
+
+.item4 ul li img {
+  width: 150px;
+  height: 150px;
 }
 
 footer {
