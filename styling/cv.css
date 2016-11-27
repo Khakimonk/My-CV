@@ -71,8 +71,8 @@ main h4:focus {
 }
 
 .profilePic {
-  width: 350px;
-  height: 500px;
+  width: 270px;
+  height: 270px;
   margin-bottom: 15px;
 }
 
@@ -110,7 +110,7 @@ footer p {
   }
   .profilePic {
     width: 200px;
-    height: 250px;
+    height: 220px;
   }
 }
 
@@ -126,7 +126,7 @@ footer p {
   }
   .profilePic {
     width: 150px;
-    height: 200px;
+    height: 170px;
   }
   .item1 p, .item2 ul p, .item3 p {
     width: 90%;
